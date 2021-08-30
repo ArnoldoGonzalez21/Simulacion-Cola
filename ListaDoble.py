@@ -13,7 +13,6 @@ class ListaDoble():
             while tmp.siguiente is not None:
                 tmp = tmp.siguiente
             tmp.siguiente = nueva_pizza
-            nueva_pizza.anterior = tmp  
     
     def mostrar_ordenes(self):
         actual = self.inicio
